@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>M. Kevin Bowen | Portfolio</title>
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="clearfix">
+            <div class="inner">
+				<img src="assets/images/batman-hangman-logo.png">
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Type ANY LETTER below!</h1>				
+				
+				<div class="make-space">
+					<font size="+2"><span id="answer">Press GUESS to start...</span></font>
+				</div>
+
+				<div class="make-space">
+					<input id="guess" type="text">
+				</div>
+
+				<div id="game-buttons">
+					<input type="button" value="GUESS" onClick="guessOne()"/>
+					<input type="button" value="GIVE UP" onClick="quit()"/>
+				</div>
+
+				<div class="make-space" id="message">&nbsp;</div>
+
+				<div class="make-space" id="lives">0</div>
+				
+          </div>
+
+          <div class="footer">
+            <div class="inner">
+              <p>Super duper game created by: <a href="https://behance.net/bowenstuff" target="_blank">Kevin Bowen</a></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+
+</html>
